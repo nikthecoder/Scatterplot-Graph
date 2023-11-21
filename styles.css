@@ -1,0 +1,35 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#title {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+#scatterplot {
+    margin: 20px;
+}
+
+.dot {
+    fill: steelblue;
+    stroke: #333;
+    stroke-width: 1;
+}
+
+#tooltip {
+    position: absolute;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ccc;
+    display: none;
+    z-index: 1;
+    width: 200px;
+}
+
+.hidden {
+    display: none;
+}
